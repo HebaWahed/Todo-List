@@ -1,0 +1,85 @@
+body{
+  background-image: url(./images/th\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App{
+  border: 1px solid rgb(82, 70, 70);
+  margin: 100px 30%;
+  padding: 50px;
+  border-radius: 25px;
+  height: 370px;
+  
+  background-color: rgba(82, 70, 70,0.3);
+}
+
+.App input{
+  background-color: white;
+  width: 100%;
+  padding-left: 30px;
+  margin-left: -41px;
+}
+
+/* Create the overlay */
+
+.App ul{
+  list-style: "✅";
+  cursor: pointer;
+  font-size: 22px;
+  margin: 20px;
+}
+h2
+{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.btn{
+  margin: 40px 72px;
+  height: 33px;
+  width: 200px;
+  border-radius: 6px;
+  list-style: none;
+  background-color: blanchedalmond;
+  outline: none;
+  border: none;
+  width:200px;
+  height: 40px;
+}
+.App button{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 40px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  
+}
+.App ul li{
+  word-wrap: break-word;
+  
+}
+
+.btns{
+  display: flex;
+ padding-top: 50px;
+}
+.btns :hover{
+  background-color: black;
+  color: azure;
+  cursor: pointer;
+}
+.diffStyle {
+ text-decoration: line-through;
+}
+.div2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+ 
